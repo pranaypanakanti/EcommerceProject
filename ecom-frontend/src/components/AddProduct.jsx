@@ -101,7 +101,7 @@ const AddProduct = () => {
           <input
             type="number"
             className="form-control"
-            placeholder="Eg: $1000"
+            placeholder="Eg: ₹1000"
             onChange={handleInputChange}
             value={product.price}
             name="price"
@@ -122,7 +122,7 @@ const AddProduct = () => {
           >
             <option value="">Select category</option>
             <option value="Laptop">Laptop</option>
-            <option value="Headphone">Headphone</option>
+            <option value="Car">Car</option>
             <option value="Mobile">Mobile</option>
             <option value="Electronics">Electronics</option>
             <option value="Toys">Toys</option>

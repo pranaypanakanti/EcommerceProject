@@ -96,7 +96,7 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
 
   const categories = [
     "Laptop",
-    "Headphone",
+    "Car",
     "Mobile",
     "Electronics",
     "Toys",
@@ -107,8 +107,8 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
       <header>
         <nav className="navbar navbar-expand-lg fixed-top">
           <div className="container-fluid">
-            <a className="navbar-brand" href="https://telusko.com/">
-              Telusko
+            <a className="navbar-brand" href="https://leetcode.com/u/bWOOG8qPLe/">
+              pranay
             </a>
             <button
               className="navbar-toggler"

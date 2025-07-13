@@ -444,7 +444,7 @@ const Cart = () => {
                   </div>
 
                   <div className="total-price " style={{ textAlign: "center" }}>
-                    ${item.price * item.quantity}
+                    ₹{item.price * item.quantity}
                   </div>
                   <button
                     className="remove-btn"
@@ -455,7 +455,9 @@ const Cart = () => {
                 </div>
               </li>
             ))}
-            <div className="total">Total: ${totalPrice}</div>
+            <div className="total">Total: 
+              <i class="bi bi-currency-rupee"></i>
+              {totalPrice}</div>
             <Button
               className="btn btn-primary"
               style={{ width: "100%" }}
